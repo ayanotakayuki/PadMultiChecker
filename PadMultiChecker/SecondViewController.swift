@@ -21,6 +21,7 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var loadButton: UIButton!
     @IBOutlet weak var countProgress: UIProgressView!
     
+    //URL末尾
     var urls:[String] = ["188", "141", "142", "150", "96", "149"]
     var urlLabels:[String] = ["レーダー総合","曜日","ゲリラ","コラボ","スペダン龍","チャレンジ系"]
     var url:String = "";
