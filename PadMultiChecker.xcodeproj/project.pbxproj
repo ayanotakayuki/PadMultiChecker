@@ -13,6 +13,7 @@
 		C53CDD941DCF22E0004311A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53CDD921DCF22E0004311A4 /* Main.storyboard */; };
 		C53CDD961DCF22E0004311A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53CDD951DCF22E0004311A4 /* Assets.xcassets */; };
 		C53CDD991DCF22E1004311A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53CDD971DCF22E1004311A4 /* LaunchScreen.storyboard */; };
+		C56271D61DCF76F20023FC7B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56271D51DCF76F20023FC7B /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C53CDD951DCF22E0004311A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C53CDD981DCF22E1004311A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C53CDD9A1DCF22E1004311A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56271D51DCF76F20023FC7B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56271D61DCF76F20023FC7B /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				C53CDD8B1DCF22E0004311A4 /* PadMultiChecker */,
 				C53CDD8A1DCF22E0004311A4 /* Products */,
+				C56271D41DCF76F10023FC7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				C53CDD9A1DCF22E1004311A4 /* Info.plist */,
 			);
 			path = PadMultiChecker;
+			sourceTree = "<group>";
+		};
+		C56271D41DCF76F10023FC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C56271D51DCF76F20023FC7B /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +316,7 @@
 				C53CDD9F1DCF22E1004311A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
